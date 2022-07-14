@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            SIGN IN PAGE
+        </title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+        <style type="text/css">
+			#CNAForm{margin-top: 40px;margin-bottom: 40px;box-shadow: 0px 0px 3px darkslategrey;}
+			i.fa,b{color:black}
+
+        .background video{
+                position: fixed;
+                overflow: hidden;
+                z-index: -1;
+                background-size: cover;
+        }
+        .video_for_bg{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.8;
+        }
+.background video{
+    position: fixed;
+
+}
+		</style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="background video">
+            <video src="video 1.mp4" autoplay loop muted class="video_for_bg"></video>
+        </div>
+            <div class="row">
+               <div class="col-xs-12 col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4 col-lg-offset-4 col-lg-4" id="CNAForm">
+                <h3 class="text-center"><i class="fa fa-hashtag"></i><b>WELCOME TO MY WORLD</b><hr></h3>
+                <div class="form-group">
+                    <b>User Name</b>
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-pencil-square-o"></i></span>
+                        <input id="TxtFirstname" type="text" maxlength="20" placeholder="User id " class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <b>Password:</b>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-key"></i></span>
+                            <input id="TxtFirstname" type="alfanumeric" maxlength="20" placeholder="Password" class="form-control">
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <a id="BtnCreateNewAccount" class="btn btn-primary"><i class="fa fa-sign-in"  style="color:#ffffff;"></i>SIGN IN</a>
+                            
+                        </div>
+    </body>
+</html>
